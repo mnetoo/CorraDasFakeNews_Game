@@ -1,14 +1,12 @@
-public class Item
+public class Item extends Elemento
 {
     // Atributos
-    private int tipo;
-    private boolean estado;
 
     // Construtos
-    public Item(int tipo, boolean estado) {}
-
-    // Getters
-    // Setters
+    public Item(){}
+    public Item(int tipo, boolean estado) {
+        Elemento(tipo, estado);
+    }
 
     // Métodos
     public void acao( /* rever parâmetros*/ ) {}

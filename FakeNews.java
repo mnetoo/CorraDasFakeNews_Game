@@ -1,11 +1,11 @@
-public class FakeNews
+public class FakeNews extends Elemento
 {
     // Atributos
-    private int tipo;
-    private boolean estado;
 
-    // Construtor
-    public FakeNews(int tipo, boolean estado) {}
+    // Construtores
+    public FakeNews(int tipo, boolean estado) {
+        Elemento(tipo, estado);
+    }
 
     // Getters
     // Setters

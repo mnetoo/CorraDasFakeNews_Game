@@ -1,15 +1,22 @@
-public class Jogador
+public class Jogador extends Elemento
 {
     // Atributos
-    private int id;
-    private Item[] itens;
-    private boolean estado;
+    private Item[] itens = new Item[4]();
 
     // Construtor
-    public Jogador(int id, Item[] itens, boolean estado) {}
+    public Jogador(int tipo, Item[] itens, boolean estado) {
+        Elemento(tipo, estado);
+        setItens(itens);
+    }
 
-    // Getters
-    // Setters
+    // Getters and Setters
+    public Item[] getItens(){
+        return this.itens;
+    }
+
+    public void setItens(){
+        if //
+    }
 
     // Métodos
     public void usarItem(Jogador[] jogadores, int id) {}

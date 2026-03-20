@@ -11,6 +11,7 @@ public class Tabuleiro
     public Tabuleiro() {}
 
     // Getters
+    public Posicao[] getSetorNo
     // Setters
 
     // Métodos
