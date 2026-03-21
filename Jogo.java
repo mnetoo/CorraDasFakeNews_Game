@@ -6,8 +6,14 @@ public class Jogo
     private FakeNews[] fakeNews;
     private Item[] itens;
 
-    // Construtor
+    // Construtores
     public Jogo(){};
+    public Jogo(int turno, Jogador[] jogadores, FakeNews[] fakeNews, Item[] itens){
+        setTurno(turno);
+        setJogadores(jogadores);
+        setFakeNews(fakeNews);
+        setItens(itens);
+    }
 
     // Getters and Setters
     public int getTurno(){

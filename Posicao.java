@@ -4,7 +4,7 @@ public class Posicao
     private int x;
     private int y;
 
-    // Construtor
+    // Construtores
     public Posicao(){}
     public Posicao(int x, int y) {
         setX(x);

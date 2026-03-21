@@ -1,11 +1,11 @@
-public class Elemento{
+public class ElementoDoJogo{
     // Atributos
     protected int tipo;
     protected boolean estado;
 
     // Construtores
-    public Elemento(){}
-    public Elemento(int tipo, boolean estado){
+    public ElementoDoJogo(){}
+    public ElementoDoJogo(int tipo, boolean estado){
         setTipo(tipo);
         setEstado(estado);
     }

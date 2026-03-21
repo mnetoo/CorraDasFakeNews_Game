@@ -1,11 +1,12 @@
-public class Jogador extends Elemento
+public class Jogador extends ElementoDoJogo
 {
     // Atributos
-    private Item[] itens = new Item[4]();
+    private Item[] itens;
 
-    // Construtor
+    // Construtores
+    public Jogador(){}
     public Jogador(int tipo, Item[] itens, boolean estado) {
-        Elemento(tipo, estado);
+        ElementoDoJogo(tipo, estado);
         setItens(itens);
     }
 
@@ -14,8 +15,9 @@ public class Jogador extends Elemento
         return this.itens;
     }
 
-    public void setItens(){
+    public void setItens(Item[] itens){
         if //
+            this.itens = itens;
     }
 
     // Métodos

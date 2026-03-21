@@ -1,14 +1,13 @@
-public class FakeNews extends Elemento
+public class FakeNews extends ElementoDoJogo
 {
     // Atributos
 
     // Construtores
     public FakeNews(int tipo, boolean estado) {
-        Elemento(tipo, estado);
+        ElementoDoJogo(tipo, estado);
     }
 
-    // Getters
-    // Setters
+    // Getters and Setters
 
     // Métodos
     public void duplicar(FakeNews[] fakeNews) {}

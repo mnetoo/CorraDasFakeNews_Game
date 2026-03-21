@@ -1,11 +1,11 @@
-public class Item extends Elemento
+public class Item extends ElementoDoJogo
 {
     // Atributos
 
-    // Construtos
+    // Construtores
     public Item(){}
     public Item(int tipo, boolean estado) {
-        Elemento(tipo, estado);
+        ElementoDoJogo(tipo, estado);
     }
 
     // Métodos
